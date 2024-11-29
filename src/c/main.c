@@ -8,7 +8,6 @@ int main()
     hello();
     printf("hello world\n");
 
-
     i8 num = 12;
     u8 max = 250;
     f32 heigh = 3.2;
@@ -17,7 +16,6 @@ int main()
     printf("num = %d, max = %d\n", num, max);
     printf("heigh = %f, width = %f\n", heigh, width);
     printf("s = %s\n", s);
-
     printf("add = %d\n", add(1, 4));
 
     return 0;
