@@ -1,9 +1,10 @@
 #include <demo.h>
 #include <types.h>
 
+u8 add(u8 a, u8 b);
+
 int main()
 {
-
     hello();
     printf("hello world\n");
 
@@ -17,7 +18,14 @@ int main()
     printf("heigh = %f, width = %f\n", heigh, width);
     printf("s = %s\n", s);
 
+    printf("add = %d\n", add(1, 4));
+
     return 0;
+}
+
+u8 add(u8 a, u8 b)
+{
+    return a + b;
 }
 
 // gcc -I./ *.c 
