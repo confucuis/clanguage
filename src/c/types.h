@@ -31,4 +31,17 @@ typedef double f64;
 
 typedef char* string;
 
+
+typedef char int8;
+typedef unsigned char uint8;
+typedef short int16;
+typedef unsigned short unt16;
+typedef int int32;
+typedef unsigned int uint32;
+typedef long int64;
+typedef unsigned long uint64;
+
+typedef float float32;
+typedef double float64;
+
 #endif // _C99_TYPES_

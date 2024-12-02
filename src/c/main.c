@@ -18,6 +18,15 @@ int main()
     printf("s = %s\n", s);
     printf("add = %d\n", add(1, 4));
 
+
+    printf("======== 类型大小 ==========\n");
+    printf("char size: %zu\n", sizeof(int8));
+    printf("short size: %zu\n", sizeof(int16));
+    printf("int size: %zu\n", sizeof(int32));
+    printf("long size: %zu\n", sizeof(int64));
+    printf("float size: %zu\n", sizeof(float32));
+    printf("double size: %zu\n", sizeof(float64));
+
     return 0;
 }
 
