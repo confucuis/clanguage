@@ -21,6 +21,17 @@ int main()
 
     std::string s = "hello world";
 
+    std::cout << "int8[char]: " << sizeof(int8) << std::endl;
+    std::cout << "int16[short]: " << sizeof(int16) << std::endl;
+    std::cout << "int32[int]: " << sizeof(int32) << std::endl;
+    std::cout << "int64[long]: " << sizeof(int64) << std::endl;
+    std::cout << "uint8[unsigned char]: " << sizeof(uint8) << std::endl;
+    std::cout << "int16[unsigned short]: " << sizeof(uint16) << std::endl;
+    std::cout << "int32[unsigned int]: " << sizeof(int32) << std::endl;
+    std::cout << "int8[unsigned long]: " << sizeof(int64) << std::endl;
+    std::cout << "float32[float]: " << sizeof(float32) << std::endl;
+    std::cout << "float64[double]: " << sizeof(float64) << std::endl;
+
     std::printf("%d\n", m);
     std::printf("%d\n", n);
     std::printf("%d\n", a);
