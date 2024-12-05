@@ -9,7 +9,7 @@ typedef struct Shape {
 } Shape;
 
 // 圆类型
-typedef struct Circle {
+typedef struct {
     Shape shape;
     double radius;
 } Circle;
@@ -30,8 +30,7 @@ Circle *new_circle(double radius)
 }
 
 // 长方形类型
-typedef struct Rectangle
-{
+typedef struct {
     Shape shape;
     double width;
     double heigh;
