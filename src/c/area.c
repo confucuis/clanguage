@@ -55,7 +55,10 @@ Rectangle *new_rectangle(double width, double heigh)
 // 释放内存
 void delete_shap(Shape *shape)
 {
-    free(shape);
+    if (shape != NULL) { 
+        free(shape);
+        shape = NULL; 
+    }
 }
 
 // 策略模式的使用
